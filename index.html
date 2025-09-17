@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <nav>
+            <h1>JavaScript</h1>
+        </nav>
+        <section>
+            <br>
+            <h2>DOM</h2>
+            <p>
+                Quando uma página web é carregada, o navegador cria um Modelo desta página.
+                O modelo é chamado árvore DOM, e é armazenado na memória dos navegadores.
+                No topo da árvore está o nódocument. Ele representa toda a página ( e também corresponde ao objeto
+                document ).
+                Elementos HTML descrevem a estrutura de uma página HTML. Para acessar a árvore DOM, você começa
+                procurando os
+                elementos. Depois de encontrar o elemento desejado, você pode acessar os nós de texto e de atributo que
+                quiser.
+                Nós de atributo não são filhos do elemento que os contém; são parte deste elemento. Depois de acessar um
+                elemento, há métodos e propriedades JavaScript específicos para ler ou modificar os atributos deste
+                elemento.
+                Nós de texto não podem ter filhos. Cada nó é um objeto com métodos e propriedades. Scripts acessam e
+                atualizam
+                essa árvore DOM (não o arquivo fonte HTML)
+
+            </p>
+        </section>
+        <section>
+            <br>
+            <br>
+            <h2>Funções JavaScript</h2>
+            <br>
+            <br>
+            <button type="button" onclick="mudarMensagem()">mudar mensagem </button>
+            <button type="button" onclick="cliqueAqui()">clique aqui</button>
+
+            <p id="mensagem">saudacao</p>
+            <p id = "contador">Clicado</p>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="js/script.js"> </script>
+</body>
+
+</html>
